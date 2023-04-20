@@ -59,7 +59,7 @@ header {
 
 /*Agora é o main da página*/
 main {
-  height: 848px;
+  height: 676px;
 }
 
 /*Textos das páginas*/
@@ -90,7 +90,7 @@ main {
 
 #serviço1 {
   height: 100%;
-  width: 46%;
+  width: 48%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,8 +148,10 @@ main {
 
 
 footer {
-  height: 6.2vh;
   background-color: #273248;
+  position: absolute;
+  height: 6.2vh;
+  width: 100%;
   display: flex;
 }
 

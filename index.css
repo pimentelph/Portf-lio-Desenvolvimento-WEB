@@ -59,7 +59,7 @@ header {
 
 /*Agora é o main da página*/
 main {
-  height: 848px;
+  height: 676px;
 }
 
 /*Imagem no canto direito do home*/
@@ -129,8 +129,10 @@ body #divimagem {
 
 
 footer {
-  height: 6.2vh;
   background-color: #273248;
+  position: absolute;
+  height: 6.2vh;
+  width: 100%;
   display: flex;
 }
 
