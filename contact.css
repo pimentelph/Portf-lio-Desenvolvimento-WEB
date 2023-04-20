@@ -1,0 +1,285 @@
+/*Isso vai pra todos do site*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Cabeçalho da página*/
+
+body {
+  background-color: #FFEBD2;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #273248;
+  overflow: visible;
+}
+
+.texto {
+  font-family: 'Raleway', sans-serif;
+  color: #FC7643;
+}
+
+#nometopnav {
+  font-size: 2vw;
+  padding: 5% 50px;
+  font-weight: bolder;
+}
+
+/*Estilização geral dos botões*/
+.topnav {
+  display: flex;
+  background-color: #273248;
+  overflow: visible;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Espaçamento entre blocos, texto*/
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Estilização de quando passa o mouse*/
+.topnav a:hover {
+  background-color: #a1a1a1;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-color: #ffffff;
+}
+
+/*Agora é o main da página*/
+main {
+  height: 848px;
+}
+
+/*Textos das páginas*/
+
+/*Título*/
+#divtitulo {
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fale {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+#divisona {
+  height: 76%;
+  width: 96%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Imagens no canto na esquerda da página*/
+
+#imagens {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+#img1 {
+  background-color: #273248;
+  height: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: solid;
+  border-radius: 15%;
+}
+
+#email {
+  height: 70%;
+}
+
+#textoemail {
+  font-size: 1.5vw;
+}
+
+#img2 {
+  background-color: #273248;
+  height: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: solid;
+  border-radius: 15%;
+}
+
+#telefone {
+  height: 70%;
+}
+
+#textotelefone {
+  font-size: 1.5vw;
+}
+
+#divisonaformulário {
+  height: 100%;
+  width: 54%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulário {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#divisonatextão {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  background-color: #273248;
+  height: 88.5%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  border-radius: 15%;
+}
+
+#coluna1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#coluna2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+/*Formulário*/
+
+#nome {
+  height: 2vh;
+  width: 19.5vw;
+}
+
+#numero {
+  height: 2vh;
+  width: 19.5vw;
+}
+
+#cemail {
+  height: 2vh;
+  width: 19.5vw;
+}
+
+#motivo {
+  height: 2vh;
+  width: 19.5vw;
+}
+
+#mensagem {
+  height: 22vh;
+  width: 40vw;
+}
+
+#enviar {
+  cursor: pointer;
+  background-color: antiquewhite;
+  border: none;
+  padding: 5px 14px;
+  border-radius: 15%;
+  font-size: 100%;
+  text-align: center;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.44);
+}
+
+#limpar {
+  cursor: pointer;
+  background-color: antiquewhite;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15%;
+  font-size: 100%;
+  text-align: center;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.44);
+}
+
+/*Rodapé da página*/
+
+
+footer {
+  height: 6.2vh;
+  background-color: #273248;
+  display: flex;
+}
+
+#divfooter {
+  height: 100%;
+  width: 53vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#created {
+  font-size: 1.5vw;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+
+#since {
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+/*Ainda no footer vou trabalhar nos logos das redes*/
+
+#redes {
+  height: 5.9vh;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 2.8vw;
+  margin-left: 1vw;
+  margin-right: 4vw;
+}

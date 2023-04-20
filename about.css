@@ -1,0 +1,197 @@
+/*Isso vai pra todos do site*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Cabeçalho da página*/
+
+
+body {
+  background-color: #FFEBD2;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #273248;
+  overflow: visible;
+}
+
+.texto {
+  font-family: 'Raleway', sans-serif;
+  color: #FC7643;
+}
+
+#nometopnav {
+  font-size: 2vw;
+  padding: 5% 50px;
+  font-weight: bolder;
+}
+
+/*Estilização geral dos botões*/
+.topnav {
+  display: flex;
+  background-color: #273248;
+  overflow: visible;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Espaçamento entre blocos, texto*/
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Estilização de quando passa o mouse*/
+.topnav a:hover {
+  background-color: #a1a1a1;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-color: #ffffff;
+}
+
+/*Agora é o main da página*/
+main {
+  height: 848px;
+}
+
+/*Titulo da página*/
+
+#divtitulo {
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sobre {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+/*Textos das páginas*/
+
+#divtextos {
+  height: 52vh;
+  width: 57vw;
+  margin-left: 1%;
+}
+
+#divtextos #p1 {
+  font-size: 1.4vw;
+  margin-bottom: 2%;
+}
+
+#divtextos #p2 {
+  font-size: 1.4vw;
+  margin-bottom: 0.7%;
+}
+
+#divtextos #p3 {
+  font-size: 1.4vw;
+  margin-bottom: 2%;
+}
+
+#divtextos #p4 {
+  font-size: 1.4vw;
+}
+
+/*Imagens da página*/
+
+body #bigdiv {
+  position: absolute;
+  left: 59.5%;
+  top: 23%;
+}
+
+#bigdiv {
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#imagemgrande {
+  height: 59vh;
+  width: 29vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#euzito {
+  height: 59vh;
+  border-radius: 15%;
+}
+
+#imagenspequenas {
+  height: 59vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mor {
+  height: 29vh;
+  border-radius: 15%;
+}
+
+#friendos {
+  height: 29vh;
+  border-radius: 15%;
+}
+
+/*Rodapé da página*/
+
+footer {
+  height: 6.2vh;
+  background-color: #273248;
+  display: flex;
+}
+
+#divfooter {
+  height: 100%;
+  width: 53vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#created {
+  font-size: 1.5vw;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+
+#since {
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+/*ainda no footer vou trabalhar nos logos das redes*/
+
+#redes {
+  height: 5.9vh;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 2.8vw;
+  margin-left: 1vw;
+  margin-right: 4vw;
+}

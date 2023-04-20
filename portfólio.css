@@ -1,0 +1,224 @@
+/*Isso vai pra todos do site*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Cabeçalho da página*/
+
+body {
+  background-color: #FFEBD2;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #273248;
+  overflow: visible;
+}
+
+.texto {
+  font-family: 'Raleway', sans-serif;
+  color: #FC7643;
+}
+
+#nometopnav {
+  font-size: 2vw;
+  padding: 5% 50px;
+  font-weight: bolder;
+}
+
+/*Estilização geral dos botões*/
+.topnav {
+  display: flex;
+  background-color: #273248;
+  overflow: visible;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Espaçamento entre blocos, texto*/
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Estilização de quando passa o mouse*/
+.topnav a:hover {
+  background-color: #a1a1a1;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-color: #ffffff;
+  transition: .5s;
+}
+
+/*Agora é o main da página*/
+main {
+  height: 848px;
+}
+
+/*Titulo da página*/
+
+#divtitulo {
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#port {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+/*Imagens da página*/
+#divisonaimagens {
+  height: 70vh;
+  width: 92vw;
+  margin-left: 4%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#imagem1 {
+  height: 70vh;
+  width: 26.5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sv {
+  height: 73.5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#igreja {
+  font-size: 1.18vw;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.274);
+}
+
+#bigreja {
+  cursor: pointer;
+  background-color: #273248;
+  border: none;
+  padding: 13px 10px;
+  border-radius: 15%;
+  font-size: 110%;
+  text-align: center;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.44);
+}
+
+#imagem2 {
+  height: 70vh;
+  width: 26.5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clast {
+  height: 73.5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#textoclast {
+  font-size: 1.18vw;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.274);
+}
+
+#bclast {
+  cursor: pointer;
+  background-color: #273248;
+  border: none;
+  padding: 13px 10px;
+  border-radius: 15%;
+  font-size: 110%;
+  text-align: center;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.44);
+}
+
+#imagem3 {
+  height: 70vh;
+  width: 26.5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#daniel {
+  height: 73.5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#textodaniel {
+  font-size: 1.18vw;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.274);
+}
+
+#bdaniel {
+  cursor: pointer;
+  background-color: #273248;
+  border: none;
+  padding: 13px 10px;
+  border-radius: 15%;
+  font-size: 110%;
+  text-align: center;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.44);
+}
+
+/*Rodapé da página*/
+
+footer {
+  height: 6.2vh;
+  background-color: #273248;
+  display: flex;
+}
+
+#divfooter {
+  height: 100%;
+  width: 53vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#created {
+  font-size: 1.5vw;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+
+#since {
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+/*ainda no footer vou trabalhar nos logos das redes*/
+
+#redes {
+  height: 5.9vh;
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 2.8vw;
+  margin-left: 1vw;
+  margin-right: 4vw;
+}

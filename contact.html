@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="pt_br">
+
+<head>
+
+    <title>Pedro Pimentel</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author=" Pedro Henrique Pimentel da Silva">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="fotos/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 id="nometopnav" class="texto">Pedro Pimentel</h1>
+        </div>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfólio.html">Portfólio</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <div id="divtitulo">
+            <h1 id="fale" class="texto">Fale comigo</h1>
+        </div>
+
+        <div id="divisona">
+            <div id="imagens">
+                <div id="img1">
+                    <img id="email" src="fotos/email.png" alt="">
+                    <p id="textoemail" class="texto">ph024011@gmail.com</p>
+                </div>
+
+                <div id="img2">
+                    <img id="telefone" src="fotos/telefone.png" alt="">
+                    <p id="textotelefone" class="texto">+55 (27) 99697-0463</p>
+                </div>
+            </div>
+
+            <div id="divisonaformulário">
+                <form id="form" action="mailto:ph024011@gmail.com" method="post" enctype="text/plain">
+                    <div id="formulário">
+                        <div id="coluna1">
+                            <label for="nome" class="texto" placeholder="Pedro Pimentel">Nome Completo</label> <br>
+                            <input type="text" id="nome" name="nome" required><br>
+                            <label for="numero" class="texto">Número de Telefone</label> <br>
+                            <input type="text" id="numero" name="numero" required>
+                        </div>
+
+                        <div id="coluna2">
+                            <label for="cemail" class="texto">Email</label> <br>
+                            <input type="email" id="cemail" name="cemail" required><br>
+                            <label for="motivo" class="texto">Motivo do contato</label> <br>
+                            <input type="text" id="motivo" name="motivo" required>
+                        </div>
+                    </div>
+                    <div id="divisonatextão">
+                        <div id="textão">
+                            <label for="mensagem" class="texto">Escreva sua mensagem</label> <br>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <input class="texto" id="enviar" type="submit" value="Enviar">
+                    <input class="texto" id="limpar" type="reset" value="Limpar">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="divfooter">
+            <p id="created" class="texto">Created by: Pedro Pimentel</p>
+            <p id="since" class="texto">Since 2023</p>
+        </div>
+
+        <div id="redes">
+            <a href="https://www.behance.net/phpimentel" target="_blank">
+                <img class="logo" id="behance" src="fotos/behance.png" alt="behance">
+            </a>
+
+            <a href="https://github.com/pimentelph" target="_blank">
+                <img class="logo" id="github" src="fotos/github.png" alt="github">
+            </a>
+
+            <a href="https://www.instagram.com/pedropimentelx/" target="_blank">
+                <img class="logo" id="insta" src="fotos/instagram.png" alt="instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/in/pedrops/" target="_blank">
+                <img class="logo" id="linkedin" src="fotos/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
