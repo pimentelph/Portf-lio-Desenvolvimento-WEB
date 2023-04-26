@@ -60,7 +60,7 @@ header {
 
 /*Agora é o main da página*/
 main {
-  height: 676px;
+  height: 86vh;
 }
 
 /*Titulo da página*/
@@ -185,6 +185,8 @@ main {
 footer {
   background-color: #273248;
   position: fixed;
+  padding: 0;
+  margin: 0;
   height: 6.2vh;
   width: 100%;
   display: flex;
